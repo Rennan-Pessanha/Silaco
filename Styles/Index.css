@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+header { 
+    background-color: rgb(232, 241, 252);
+    height: 200px;
+    width: 100%;
+}
+
+.title {
+    display: block;
+}
+
+.logo {
+    margin-top: -4.5%;
+    display: inline-block;
+    height: 350px;
+    width: 460px;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.ContatoNav {
+    position: relative;
+    left: 35%;
+    top: -125%;
+    display: inline-flex;
+    
+}
+
+.ContatoNav h3 {
+
+    margin-left: 40px;
+    font-size: 1.5em;
+    display: inline-flex;
+
+    }
+
+.ContatoNav a {
+
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    
+        }
+
+.nav {
+    position: relative;
+    left: 35.5%;
+    top: -85%;
+}
+
+.nav a {
+    margin-left: 2%;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+.zapIcon {
+    position: relative;
+    height: 30px;
+    display: inline-flex;
+}
+
+
+.containerproj .slider-container .slide {
+    
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
+
+}
+
+.containerproj .slider-container .slide .contentproj { 
+
+    flex:  1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+
+}
+
+@keyframes slideContent{0%
+{
+    opacity: 0;
+    transform: translate(-50%);
+}
+
+}
+
+.containerproj .slider-container .slide .contentproj h3 {
+
+    font-size: 35px;
+    color: #116acf;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+
+.containerproj .slider-container .slide .contentproj p {
+
+    font-size: 16px;
+    color: #ffdecb;
+    font-family: 'Baloo Da 2', cursive;
+    width: 50%;
+    height: 10%;    
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.containerproj .slider-container .slide .contentproj .btn-ref {
+
+    margin-top: 10px;
+    display: inline-block;
+    background: #116acf;
+    color: black;
+    font-size: 17px;
+    padding: 9px 40px;
+    border-radius: 5px;
+    border: 2px solid #111111;
+    font-family: 'Baloo Da 2', cursive;
+    text-decoration: none;
+}
+
+.containerproj .slider-container .slide .contentproj .btn-ref:hover {
+
+    background: #ff6701;
+    border: 2px solid #111111;
+    color: white;
+}
+
+.containerproj .slider-container {
+    display: none;
+}
+
+.containerproj .slider-container.active {
+    display: block;
+}
+
+.containerproj .slider-container:nth-child(1) .slide{
+
+    background: url(/Assents/Img/Slider/SliderI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.containerproj .slider-container:nth-child(2) .slide{
+
+    background: url(/Assents/Img/Slider/SliderII.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.containerproj .slider-container:nth-child(3) .slide{
+
+    background: url(/Assents/Img/Slider/SliderIII.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.containerproj #prev,
+.containerproj #next{
+    
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    color: white;
+    background: #116acf;
+    height: 48px;
+    width: 48px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.containerproj #prev:hover,
+.containerproj #next:hover{
+    background: #ff6701;
+}
+
+.containerproj #prev{
+    left: 20px;
+}
+
+.containerproj #next{
+    right: 20px;
+}
