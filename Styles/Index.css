@@ -146,7 +146,7 @@ header {
 
 .containerproj .slider-container:nth-child(1) .slide{
 
-    background: url(/Assents/Img/Slider/SliderI.jpg);
+    background: url(../Assents/Img/Slider/SliderI.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -156,7 +156,7 @@ header {
 
 .containerproj .slider-container:nth-child(2) .slide{
 
-    background: url(/Assents/Img/Slider/SliderII.jpg);
+    background: url(../Assents/Img/Slider/SliderII.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -166,7 +166,7 @@ header {
 
 .containerproj .slider-container:nth-child(3) .slide{
 
-    background: url(/Assents/Img/Slider/SliderIII.jpg);
+    background: url(../Assents/Img/Slider/SliderIII.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
