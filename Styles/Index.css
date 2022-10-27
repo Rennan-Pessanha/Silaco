@@ -15,7 +15,7 @@ html, body {
 header { 
     background-color: rgb(232, 241, 252);
     height: 200px;
-    width: 100%;
+    width: 100vw;
 }
 
 .title {
