@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+html, body {
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+
+header { 
+    background-color: rgb(213, 231, 253);
+    height: 200px;
+    width: 100vw;
+}
+
+.title {
+    display: block;
+}
+
+.logo {
+    margin-top: -4.5%;
+    display: inline-block;
+    height: 350px;
+    width: 460px;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.ContatoNav {
+    position: relative;
+    left: 35%;
+    top: -125%;
+    display: inline-flex;
+    
+}
+
+.ContatoNav h3 {
+
+    margin-left: 40px;
+    font-size: 1.5em;
+    display: inline-flex;
+
+    }
+
+.ContatoNav a {
+
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    
+        }
+
+.nav {
+    position: relative;
+    left: 35.5%;
+    top: -85%;
+}
+
+.nav a {
+    margin-left: 2%;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+.zapIcon {
+    position: relative;
+    height: 30px;
+    display: inline-flex;
+}
+
+.mobile-menu-icon { 
+    display: none;
+    position: relative;
+    top: -85%;
+    right: -95%;
+}
+
+.mobile-menu { 
+    display: none;
+    background-color: rgb(232, 241, 252);
+}
+
+
+@media(max-width: 831px){ 
+
+    .logo {
+        margin-top: -10%;
+        display: inline-block;
+        height: 350px;
+        width: 460px;
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+
+}
+
+@media(max-width: 1266px){ 
+
+    .ContatoNav {
+
+        position: relative;
+        left: 30%;
+        top: -125%;
+        display: inline-flex;
+
+    }
+}
+
+@media(max-width: 1154px){ 
+
+    .ContatoNav {
+
+        position: relative;
+        left: 20%;
+        top: -125%;
+        display: inline-flex;
+
+    }
+
+}
+
+@media screen and (max-width: 1063px ) {
+
+    .ContatoNav {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .mobile-menu-icon { 
+        display: block;;
+    }
+
+    .mobile-menu-icon button{ 
+           background-color: transparent;
+           border: none;
+           cursor: pointer;
+    }
+
+    .mobile-menu { 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item { 
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button { 
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button { 
+        width: 100%;
+    }
+
+    .open { 
+        display: none;
+    }
+
+
+}
+
+
+.produtoContent {
+margin-top: 1%;
+width: 100%;
+}
+
+.FotoProduto {
+
+    height: 30px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 5%;
+
+}
+.textProduto {
+    display: inline-block;
+    width: 500px;
+    margin-left: 1%;
+    vertical-align: top;
+}
+
+.Cotação-Title {
+    text-align: center;
+
+}
+
+.footer{
+    display: block;
+    background-color: rgb(213, 231, 253);
+    width: 100%;
+    height: 50%;
+    margin-top: 2%;
+}
+
+.f1 {
+    
+    display: inline-block;
+    width: 200px;
+    margin-left: 20%;
+}
+
+.silacoF {
+    width: 100%;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.FotoFL {
+    position: relative;
+    top: -10%;
+}
+
+    .f2 {
+
+    margin-top: 20px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+    .f3 {
+    vertical-align: top;
+    margin-top: 20px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+
+    
+}
+
+.titlef {
+
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+
+}
+
+.contf2 {
+
+    margin-top: 4%;
+    width: 100%;
+    height: 200px;
+}
+
+.titlef3 {
+
+    margin-top: 2%;
+    width: 100%;
+    height: 40px;
+
+}
+
+.contf3 {
+
+    margin-top: 4%;
+    width: 100%;
+    height: 200px;
+}
+
+
+@media(max-width: 1057px){
+
+    .f1 {
+        margin-left: 10%;
+    }
+
+}
+
+@media(max-width: 945px){
+    .f1 {
+        margin-left: 5%;
+    }
+}
+
+
+@media(max-width: 893px){
+
+    .f1 {
+        margin-left: 1%;
+    }
+}
+
+@media(max-width: 858px){
+
+    .f2, .f3 {
+
+        display: block;
+        height: 40%;
+        width: 300px;
+        margin-left: 40%;
+    
+    }
+
+    .f1 {
+        display: none;
+    }
+
+    .footer{
+        display: block;
+        background-color: rgb(232, 241, 252);
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .FotoFL {
+        display: none;
+    }
+
+    .silacoF {
+        display: none; }
+
+}
+

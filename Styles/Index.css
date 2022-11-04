@@ -64,9 +64,16 @@ header {
 }
 
 .nav a {
+    text-decoration: none;
+    color: black;
     margin-left: 2%;
     font-size: 1.5em;
-    text-decoration: none;
+}
+
+.nav a:hover {
+    font-size: 2em;
+    transition-duration: 0.2s;
+    color: rgb(0, 15, 46);
 }
 
 
@@ -87,6 +94,22 @@ header {
     display: none;
     background-color: rgb(232, 241, 252);
 }
+
+.nav-item a {
+
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+    font-size: 1.5em;
+
+}
+
+.nav-item a:hover {
+
+    transition-duration: 0.2s;
+    color: rgb(0, 15, 46);
+}
+
 
 
 @media(max-width: 831px){ 
