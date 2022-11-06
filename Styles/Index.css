@@ -15,7 +15,7 @@ html, body {
 
 
 header { 
-    background-color: rgb(213, 231, 253);
+    background-color: #e9e9e9;
     height: 200px;
     width: 100vw;
 }
@@ -38,6 +38,7 @@ header {
     left: 35%;
     top: -125%;
     display: inline-flex;
+    color: #0f26f7;
     
 }
 
@@ -46,6 +47,7 @@ header {
     margin-left: 40px;
     font-size: 1.5em;
     display: inline-flex;
+    color: #040720;
 
     }
 
@@ -65,7 +67,7 @@ header {
 
 .nav a {
     text-decoration: none;
-    color: black;
+    color: #040720;
     margin-left: 2%;
     font-size: 1.5em;
 }
@@ -98,7 +100,7 @@ header {
 .nav-item a {
 
     text-decoration: none;
-    color: black;
+    color: #040720;
     margin-left: 2%;
     font-size: 1.5em;
 
@@ -284,7 +286,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -294,7 +296,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -304,7 +306,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -388,11 +390,11 @@ header {
     background-color: #ffffff;
     height: 10%;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .produtos-h1 {
-    color: #116acf;
+    color: #040720;
     font-weight: lighter;
     text-decoration: wavy;
     font-size: 3em;
@@ -416,7 +418,7 @@ header {
     background-color: #ffffff;
     display: inline-block;
     margin-right: 5%;
-    margin-top: 1%;
+    margin-top: 3%;
     height: 300px;
     width: 300px;
 
@@ -445,6 +447,7 @@ header {
 .Item-Name {
     
     text-align: center;
+    color: #050a3b;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif
 }
@@ -467,7 +470,7 @@ header {
     margin-left: 33%;
     margin-top: 10px;
     display: inline-block;
-    background: #a1caf8;
+    background: #ff6701;
     color: black;
     font-size: 17px;
     padding: 4px 30px;
@@ -575,7 +578,7 @@ header {
 
 .footer{
     display: block;
-    background-color: rgb(213, 231, 253);
+    background-color: #e9e9e9;
     width: 100%;
     height: 50%;
     margin-top: 5%;
