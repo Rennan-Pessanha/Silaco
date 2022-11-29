@@ -355,15 +355,20 @@ header {
 
 .At-Content {
     display: inline-block;
+<<<<<<< Updated upstream
     margin-right: 20%;
     margin-left: 10%;
+=======
+    margin-right: 15%;
+    margin-left: 20%;
+>>>>>>> Stashed changes
     text-align: center;
 
 }
 
 .Star-content {
     display: inline-block;
-    margin-right: 20%;
+    margin-right: 15%;
     text-align: center;
 }
 
