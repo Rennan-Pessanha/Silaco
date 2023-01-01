@@ -356,7 +356,7 @@ header {
 .At-Content {
     display: inline-block;
     margin-right: 20%;
-    margin-left: 10%;
+    margin-left: 13%;
     text-align: center;
 
 }
@@ -371,6 +371,39 @@ header {
     display: inline-block;
     text-align: center;
 }
+
+@media(max-width: 1114px) { 
+
+
+    .Qualidades {
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+        background-color: rgb(236, 232, 226);
+    
+    }
+    
+    .At-Content {
+        display: inline-block;
+        margin-right: 20%;
+        margin-left: 3%;
+        text-align: center;
+    
+    }
+    
+    .Star-content {
+        display: inline-block;
+        margin-right: 15%;
+        text-align: center;
+    }
+    
+    .pay-content {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
 
 @media(max-width: 1087px) {
 
@@ -387,6 +420,71 @@ header {
     }
 
 }
+
+@media(max-width: 977px) { 
+
+
+    .Qualidades {
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+        background-color: rgb(236, 232, 226);
+    
+    }
+    
+    .At-Content {
+        display: inline-block;
+        margin-right: 10%;
+        margin-left: 0%;
+        text-align: center;
+    
+    }
+    
+    .Star-content {
+        display: inline-block;
+        margin-right: 5%;
+        text-align: center;
+    }
+    
+    .pay-content {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 858px) { 
+
+    .Qualidades {
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: -1.7%;
+        background-color: rgb(236, 232, 226);
+    
+    }
+    
+    .At-Content {
+        display: inline-block;
+        margin-right: 10%;
+        margin-left: 5%;
+        text-align: center;
+    
+    }
+    
+    .Star-content {
+        display: inline-block;
+        margin-right: 5%;
+        text-align: center;
+    }
+    
+    .pay-content {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
 
 @media(max-width: 768px) {
 
@@ -436,6 +534,57 @@ header {
     
     .pay-content {
         display: inline-block;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 425px) { 
+
+    .containerproj .slider-container.active {
+        display: block;
+        width: 100%;
+        margin-left: -20px;
+        margin-top: -2%;
+    }
+
+    .Hist {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .SobreContent {
+        height: 10%;
+        width: 355px;
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+
+    .Qualidades {
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+        background-color: rgb(236, 232, 226);
+        margin-bottom: -5%;
+    }
+    
+    .At-Content {
+        display: block;
+        margin: auto;
+    
+    }
+    
+    .Star-content {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .pay-content {
+        display: block;
+        margin: auto;
         text-align: center;
     }
 
